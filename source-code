@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        int a = 10;
+        greet();
+    }
+
+    public static void greet() {
+        String message = "hello";           // points to string literal in String pool (heap)
+        String s = new String("hello");     // new String object in heap
+    }
+}
